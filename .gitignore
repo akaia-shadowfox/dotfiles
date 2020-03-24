@@ -1,0 +1,23 @@
+# Ignore all files named .DS_Store or ending with .log
+**/.DS_Store
+**.log
+
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!.lein/*
+!.vim/*
+!.config/fish/*
+!.config/fisher/*
+!.config/omf/*
+!.config/htop/*
+
+# ...even if they are in subdirectories
+#!*/
+
+# if the files to be tracked are in subdirectories
+#!*/a/b/file1.txt
+#!*/a/b/c/*
+
