@@ -1,3 +1,4 @@
+package foreign-env
 theme default
 theme fishbone
 theme flash
