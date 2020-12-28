@@ -1,15 +1,16 @@
 #!/usr/local/bin/fish
 
-function download-and-convert -a urls
+function download-and-convert -a url
   cd ~/Movies
 
   youtube-dl\
     --audio-quality 0\
     -f bestvideo+bestaudio\
     --merge-output-format mp4\
-    --postprocessor-args "-acodec aac"\
-    $urls
+    --postprocessor-args "-c:v libx264 -c:a aac -strict experimental"\
+    $url
 end
 
-download-and-convert $argv
-
+for url in $argv
+  download-and-convert $url
+end
