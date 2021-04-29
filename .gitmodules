@@ -1,0 +1,6 @@
+[submodule ".config/nvim/pack/airblade/start/vim-gitgutter"]
+	path = .config/nvim/pack/airblade/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule ".vim/plugged/vim-clojure-highlight"]
+	path = .vim/plugged/vim-clojure-highlight
+	url = https://github.com/guns/vim-clojure-highlight.git
