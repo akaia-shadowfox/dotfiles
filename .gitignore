@@ -9,7 +9,8 @@
 !.gitignore
 !.lein/*
 !.clj-kondo/config.edn
-!.vim/*
+!.config/neofetch/*
+!.config/nvim/*
 !.config/fish/*
 !.config/fisher/*
 !.config/omf/*
