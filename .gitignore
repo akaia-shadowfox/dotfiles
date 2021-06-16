@@ -13,6 +13,7 @@
 !.config/nvim/*
 !.config/fish/*
 !.config/fisher/*
+!.config/iterm2/*
 !.config/omf/*
 !.config/htop/*
 
