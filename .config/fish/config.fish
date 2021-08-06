@@ -2,6 +2,8 @@ if status is-interactive
   neofetch
 end
 
+source ~/.asdf/asdf.fish
+
 # Setup nix package manager
 fenv source ~/.nix-profile/etc/profile.d/nix.sh
 
