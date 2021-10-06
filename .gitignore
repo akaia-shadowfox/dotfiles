@@ -16,6 +16,7 @@
 !.config/iterm2/*
 !.config/omf/*
 !.config/htop/*
+!.vim/*
 
 # ...even if they are in subdirectories
 #!*/
