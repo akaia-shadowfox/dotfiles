@@ -1,5 +1,5 @@
 if status is-interactive
-  neofetch
+  neofetch --source /Users/karina/Akaia/ascii-art-80x80.txt
 end
 
 source ~/.asdf/asdf.fish
