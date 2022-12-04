@@ -1,5 +1,5 @@
 if status is-interactive
-  neofetch --source /Users/karina/Akaia/ascii-art-80x80.txt
+  neofetch --source ~/.config/neofetch/Akaia.jpeg --backend chafa --gap -0
 end
 
 source ~/.asdf/asdf.fish
