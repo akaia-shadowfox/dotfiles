@@ -1,4 +1,4 @@
 # Defined via `source`
-function nano --wraps=nvim --description 'alias nano=nvim'
-  nvim $argv; 
+function nano --wraps=hx --description 'alias nano=hx'
+  hx $argv; 
 end
