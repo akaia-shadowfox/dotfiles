@@ -7,16 +7,14 @@
 
 # But not these files...
 !.gitignore
-!.lein/*
-!.clj-kondo/config.edn
 !.config/neofetch/*
-!.config/nvim/*
 !.config/fish/*
 !.config/fisher/*
 !.config/iterm2/*
 !.config/omf/*
 !.config/htop/*
-!.vim/*
+!.config/starship.toml
+!.config/helix/*
 
 # ...even if they are in subdirectories
 #!*/
