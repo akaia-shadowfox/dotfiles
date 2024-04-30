@@ -8,13 +8,12 @@
 # But not these files...
 !.gitignore
 !.config/neofetch/*
-!.config/fish/*
-!.config/fisher/*
 !.config/iterm2/*
-!.config/omf/*
 !.config/htop/*
 !.config/starship.toml
 !.config/helix/*
+!.config/shell.nu
+!.config/mise/*
 
 # ...even if they are in subdirectories
 #!*/
@@ -23,3 +22,4 @@
 #!*/a/b/file1.txt
 #!*/a/b/c/*
 
+/target
