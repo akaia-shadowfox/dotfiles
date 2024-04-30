@@ -5,7 +5,7 @@
 # Ignore everything
 *
 
-# But not these files...
+# ...but not the following
 !.gitignore
 !.config/neofetch/*
 !.config/iterm2/*
@@ -14,12 +14,4 @@
 !.config/helix/*
 !.config/shell.nu
 !.config/mise/*
-
-# ...even if they are in subdirectories
-#!*/
-
-# if the files to be tracked are in subdirectories
-#!*/a/b/file1.txt
-#!*/a/b/c/*
-
-/target
+!.local/bin/dlfox.fish
