@@ -1,0 +1,4 @@
+[tools]
+deno = "latest"
+node = "20.9.0"
+rust = "nightly-2023-11-28"
