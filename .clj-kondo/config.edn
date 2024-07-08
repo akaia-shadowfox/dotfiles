@@ -1,5 +1,0 @@
-{:lint-as
- {mount.core/defstate                 clojure.core/def
-  garden.def/defstyles                clojure.core/def
-  clojurewerkz.quartzite.jobs/defjob  clojure.core/defn
-  next.jdbc/with-transaction          clojure.core/with-open}}
