@@ -1,4 +1,8 @@
 [tools]
+rust = "nightly-2024-05-24"
+node = "latest"
 deno = "latest"
-node = "20.9.0"
-rust = "nightly-2023-11-28"
+erlang = "27.0"
+elixir = "latest"
+gleam = "1.2.1"
+rebar = "latest"
