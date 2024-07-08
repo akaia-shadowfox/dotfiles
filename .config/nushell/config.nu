@@ -760,9 +760,11 @@ $env.config = {
 
 use ~/.cache/starship/init.nu
 
-source "/Users/carina/Library/Application Support/nushell/mise.nu"
-
+# alias cd = z
+alias nano = hx
 alias tree = lsd --group-dirs last --tree --depth 2
+
+source ~/.zoxide.nu
 
 if $nu.is-interactive {
     macchina
