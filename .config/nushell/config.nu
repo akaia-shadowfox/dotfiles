@@ -759,12 +759,11 @@ $env.config = {
 }
 
 use ~/.cache/starship/init.nu
+source ~/.zoxide.nu
 
-# alias cd = z
+alias cd = z
 alias nano = hx
 alias tree = lsd --group-dirs last --tree --depth 2
-
-source ~/.zoxide.nu
 
 if $nu.is-interactive {
     macchina
