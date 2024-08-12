@@ -14,6 +14,7 @@ with import <nixpkgs> {}; {
 		macchina
 		mise
 		firefox
+		docker
 		# chromium
 	];
 }
