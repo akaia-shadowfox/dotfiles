@@ -13,8 +13,11 @@ with import <nixpkgs> {}; {
 		dust
 		macchina
 		mise
-		firefox
+		caddy
+		conda
+		jdk17
 		docker
-		# chromium
+		chromium
+		firefox
 	];
 }
