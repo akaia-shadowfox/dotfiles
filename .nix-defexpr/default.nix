@@ -14,10 +14,13 @@ with import <nixpkgs> {}; {
 		macchina
 		mise
 		caddy
-		conda
+		python312Packages.conda
 		jdk17
 		docker
 		chromium
 		firefox
+		ffmpeg
+		# steam
+		# rocksdb
 	];
 }
