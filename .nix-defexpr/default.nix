@@ -19,6 +19,7 @@ with import <nixpkgs> {}; {
 		docker
 		chromium
 		firefox
+		browsh
 		ffmpeg
 		# steam
 		# rocksdb
