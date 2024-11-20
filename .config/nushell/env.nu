@@ -90,11 +90,14 @@ $env.NU_PLUGIN_DIRS = [
 # An alternate way to add entries to $env.PATH is to use the custom command `path add`
 # which is built into the nushell stdlib:
 # use std "path add"
-$env.PATH = ($env.PATH | split row (char esep) | append '~/.nix-profile/bin' | append '~/.local/share/mise/shims')
-# path add /some/path
-# path add ($env.CARGO_HOME | path join "bin")
-# path add ($env.HOME | path join ".local" "bin")
-$env.PATH = ($env.PATH | uniq)
+$env.PATH = (
+    $env.PATH
+    | split row (char esep)
+    | append '~/.nix-profile/bin'
+    | append '~/.local/share/mise/shims'
+    | append '/nix/var/nix/profiles/default/bin'
+    | uniq
+)
 
 # To load from a custom file you can use:
 # source ($nu.default-config-dir | path join 'custom.nu')
