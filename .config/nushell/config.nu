@@ -767,5 +767,5 @@ alias tree = lsd --group-dirs last --tree --depth 2
 # alias browsh = browsh --firefox.path /bin/env firefox
 
 if $nu.is-interactive {
-    macchina
+    macchina --theme astatine
 }
