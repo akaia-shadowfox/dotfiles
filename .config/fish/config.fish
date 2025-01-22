@@ -1,6 +1,8 @@
 if status is-interactive
-    mise activate fish --shims
-    macchina
+	mise activate fish --shims | source
+	starship init fish | source
+	zoxide init fish | source
+	macchina
 else
-    mise activate fish
+	mise activate fish
 end
