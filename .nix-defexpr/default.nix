@@ -1,6 +1,7 @@
 with import <nixpkgs> {}; {
 	selected = with pkgs; [
-	  fish
+		fish
+		git-credential-manager
 		nushell
 		helix
 		lsd
