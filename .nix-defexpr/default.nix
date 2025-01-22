@@ -1,5 +1,6 @@
 with import <nixpkgs> {}; {
 	selected = with pkgs; [
+	  fish
 		nushell
 		helix
 		lsd
