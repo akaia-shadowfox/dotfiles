@@ -99,6 +99,8 @@ $env.PATH = (
     | uniq
 )
 
+$env.GCM_CREDENTIAL_STORE = "gpg"
+
 # To load from a custom file you can use:
 # source ($nu.default-config-dir | path join 'custom.nu')
 
