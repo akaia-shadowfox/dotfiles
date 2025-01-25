@@ -16,7 +16,6 @@ with import <nixpkgs> {}; {
 		macchina
 		mise
 		caddy
-		python312Packages.conda
 		jdk17
 		docker
 		chromium
