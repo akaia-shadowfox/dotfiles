@@ -6,6 +6,7 @@ with import <nixpkgs> {}; {
 		helix
 		lsd
 		bat
+		zellij
 		zoxide
 		fzf
 		htop
