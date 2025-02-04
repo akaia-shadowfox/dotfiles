@@ -2,8 +2,8 @@ if status is-interactive
     mise activate fish --shims | source
     starship init fish | source
     zoxide init fish | source
-    zellij ls
     macchina --theme astatine
+    zellij ls
 else
     mise activate fish --shims | source
 end

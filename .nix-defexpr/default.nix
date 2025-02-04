@@ -17,7 +17,7 @@ with import <nixpkgs> {}; {
 		macchina
 		mise
 		caddy
-		jdk17
+		jdk21
 		docker
 		chromium
 		firefox
