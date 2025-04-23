@@ -1,6 +1,6 @@
 with import <nixpkgs> {}; {
 	selected = with pkgs; [
-		fish
+		# fish #? Enable upon migration to NixOS
 		git-credential-manager
 		nushell
 		helix
@@ -9,6 +9,7 @@ with import <nixpkgs> {}; {
 		zellij
 		zoxide
 		fzf
+		btop
 		htop
 		zenith
 		nerdfonts
@@ -18,7 +19,8 @@ with import <nixpkgs> {}; {
 		mise
 		caddy
 		jdk21
-		docker
+		# docker docker-compose
+		rootlesskit podman podman-tui dive
 		chromium
 		firefox
 		browsh

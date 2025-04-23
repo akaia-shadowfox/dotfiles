@@ -9,6 +9,7 @@ else
 end
 
 set -gx GCM_CREDENTIAL_STORE gpg
+set -gx GPG_TTY (tty)
 set -gx OLLAMA_MODELS /home/ai/ollama/models
 
 # >>> conda initialize >>>
@@ -23,3 +24,7 @@ else
     end
 end
 # <<< conda initialize <<<
+
+fish_add_path -a /home/shadowfox/.foundry/bin
+
+fish_add_path -a /home/shadowfox/.foundry/bin
