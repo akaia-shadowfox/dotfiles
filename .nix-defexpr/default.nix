@@ -2,7 +2,10 @@ with import <nixpkgs> {}; {
 	selected = with pkgs; [
 		# fish #? Enable upon migration to NixOS
 		git-credential-manager
-		nushell
+		woff2
+		# python313Packages.fontforge
+		# fontforge
+		# nushell
 		helix
 		lsd
 		bat
@@ -21,10 +24,14 @@ with import <nixpkgs> {}; {
 		jdk21
 		# docker docker-compose
 		rootlesskit podman podman-tui dive
-		chromium
-		firefox
+		# tilda
+		mission-center
+		# wireshark
+		# nvtop
+		# vscodium
 		browsh
 		ffmpeg
+		# handbrake
 		# steam
 		# rocksdb
 	];

@@ -1,12 +1,12 @@
-# Ignore all files named .DS_Store or ending with .log
 **/.DS_Store
-**.log
+**/*.log
 
 # Ignore everything
 *
 
 # ...but not the following
 !.gitignore
+!.config/btop/
 !.config/neofetch/*
 !.config/iterm2/*
 !.config/htop/*
