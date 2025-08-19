@@ -26,5 +26,3 @@ end
 # <<< conda initialize <<<
 
 fish_add_path -a /home/shadowfox/.foundry/bin
-
-fish_add_path -a /home/shadowfox/.foundry/bin

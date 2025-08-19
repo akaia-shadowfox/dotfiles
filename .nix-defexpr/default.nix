@@ -1,6 +1,6 @@
 with import <nixpkgs> {}; {
 	selected = with pkgs; [
-		# fish #? Enable upon migration to NixOS
+		# fish
 		git-credential-manager
 		woff2
 		# python313Packages.fontforge
@@ -23,9 +23,14 @@ with import <nixpkgs> {}; {
 		caddy
 		jdk21
 		# docker docker-compose
-		rootlesskit podman podman-tui dive
+		rootlesskit
+		# skopeo
+		# podman podman-tui
+		dive
 		# tilda
 		mission-center
+		parcellite
+		# spacedrive
 		# wireshark
 		# nvtop
 		# vscodium
