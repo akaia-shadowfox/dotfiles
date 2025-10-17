@@ -10,3 +10,6 @@ python = "latest"
 bun = "1.1.29"
 go = "latest"
 just = "latest"
+
+[settings]
+idiomatic_version_file_enable_tools = ["node"]

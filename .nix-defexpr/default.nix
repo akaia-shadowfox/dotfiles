@@ -19,7 +19,7 @@ with import <nixpkgs> {}; {
 		starship
 		dust
 		macchina
-		mise
+		# mise
 		caddy
 		jdk21
 		# docker docker-compose
