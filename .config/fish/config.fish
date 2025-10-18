@@ -4,7 +4,7 @@ if status is-interactive
     macchina --theme astatine
     zellij ls
 else
-    mise activate fish --shims | source
+
 end
 
 set -gx GCM_CREDENTIAL_STORE gpg
