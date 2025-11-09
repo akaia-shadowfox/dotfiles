@@ -1,6 +1,5 @@
 if status is-interactive
     starship init fish | source
-    zoxide init fish | source
     macchina --theme astatine
     zellij ls
 else
